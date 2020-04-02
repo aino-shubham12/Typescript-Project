@@ -1,0 +1,54 @@
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+
+@media (min-width:992px) {
+    .masthead {
+        height: 100vh;
+        padding: 0
+    }
+    .masthead h1 {
+        font-family: 'serif';
+        -webkit-text-fill-color: black;
+        font-size: 2.5rem;
+        line-height: 6.5rem;
+        letter-spacing: .8rem
+    }
+}
+
+.btn {
+    -webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1)!important;
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1)!important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0
+}
+
+.btn-primary {
+    background-color: #64a19d
+}
+
+.btn-primary:hover {
+    background-color: #4f837f
+}
+
+.btn-primary:focus {
+    background-color: #4f837f;
+    color: #fff
+}
+
+.btn-primary:active {
+    background-color: #467370!important
+}
